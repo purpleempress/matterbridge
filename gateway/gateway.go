@@ -299,7 +299,12 @@ func (gw *Gateway) ignoreMessage(msg *config.Message) bool {
 
 	igNicks := strings.Fields(gw.Bridges[msg.Account].GetString("IgnoreNicks"))
 	igMessages := strings.Fields(gw.Bridges[msg.Account].GetString("IgnoreMessages"))
-	if gw.ignoreTextEmpty(msg) || gw.ignoreText(msg.Username, igNicks) || gw.ignoreText(msg.Text, igMessages) || gw.ignoreFilesComment(msg.Extra, igMessages) {
+	igUserIDs := strings.Fields(gw.Bridges[msg.Account].GetString("IgnoreUserIDs"))
+	if gw.ignoreTextEmpty(msg) || 
+	   gw.ignoreText(msg.Username, igNicks) || 
+	   gw.ignoreText(msg.Text, igMessages) || 
+	   gw.ignoreText(msg.UserID, igUserIDs) || 
+	   gw.ignoreFilesComment(msg.Extra, igMessages) {
 		return true
 	}
 

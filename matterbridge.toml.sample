@@ -150,6 +150,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
 
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
+
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
 #so you need to place it by the sending bridge definition.
@@ -287,6 +293,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #See https://regex-golang.appspot.com/assets/html/index.html for more regex info
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
+
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
 
 #Messages you want to replace.
 #It replaces outgoing messages from the bridge.
@@ -455,6 +467,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
 
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
+
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
 #so you need to place it by the sending bridge definition.
@@ -572,6 +590,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #See https://regex-golang.appspot.com/assets/html/index.html for more regex info
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
+
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
 
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
@@ -711,6 +735,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #See https://regex-golang.appspot.com/assets/html/index.html for more regex info
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
+
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
 
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
@@ -862,6 +892,12 @@ IgnoreNicks=""
 # Example that ignores messages starting with ~~ or messages containing badword:
 #   IgnoreMessages="^~~ badword"
 IgnoreMessages=""
+
+# IgnoreUserIDs mutes outgoing messages from certain user IDs.
+# Messages from these user IDs will not be transmitted to other bridges.
+# Regular expressions are also supported.
+# Example: "^bot\\. evil\\.user"
+IgnoreUserIDs=""
 
 # ReplaceMessages replaces substrings of messages in outgoing messages.
 # Regular expressions are supported.
@@ -1027,6 +1063,12 @@ IgnoreNicks="spammer1 spammer2"
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
 
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
+
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
 #so you need to place it by the sending bridge definition.
@@ -1168,6 +1210,12 @@ IgnoreNicks="ircspammer1 ircspammer2"
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
 
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
+
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
 #so you need to place it by the sending bridge definition.
@@ -1280,6 +1328,12 @@ IgnoreNicks="spammer1 spammer2"
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
 
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
+
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
 #so you need to place it by the sending bridge definition.
@@ -1376,6 +1430,12 @@ IgnoreNicks="spammer1 spammer2"
 #See https://regex-golang.appspot.com/assets/html/index.html for more regex info
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
+
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
 
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
@@ -1585,6 +1645,12 @@ IgnoreNicks="spammer1 spammer2"
 #See https://regex-golang.appspot.com/assets/html/index.html for more regex info
 #OPTIONAL (example below ignores messages starting with ~~ or messages containing badword
 IgnoreMessages="^~~ badword"
+
+#UserIDs you want to ignore.
+#Regular expressions supported
+#Messages from those user IDs will not be sent to other bridges.
+#OPTIONAL (example below ignores users starting with bot.)
+IgnoreUserIDs="^bot\\. evil\\.user"
 
 #messages you want to replace.
 #it replaces outgoing messages from the bridge.
